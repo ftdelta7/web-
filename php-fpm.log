@@ -1,0 +1,42 @@
+[17-Oct-2024 14:49:11] ERROR: unable to bind listening socket for address '/home/container/tmp/php-fpm.sock': No such file or directory (2)
+[17-Oct-2024 14:49:11] ERROR: FPM initialization failed
+[17-Oct-2024 14:49:13] NOTICE: fpm is running, pid 15
+[17-Oct-2024 14:49:13] NOTICE: ready to handle connections
+[17-Oct-2024 15:39:45] NOTICE: fpm is running, pid 15
+[17-Oct-2024 15:39:45] NOTICE: ready to handle connections
+[17-Oct-2024 15:39:47] NOTICE: fpm is running, pid 15
+[17-Oct-2024 15:39:47] NOTICE: ready to handle connections
+[17-Oct-2024 15:51:27] NOTICE: fpm is running, pid 15
+[17-Oct-2024 15:51:27] NOTICE: ready to handle connections
+[17-Oct-2024 15:51:30] NOTICE: fpm is running, pid 15
+[17-Oct-2024 15:51:30] NOTICE: ready to handle connections
+[18-Oct-2024 06:00:12] NOTICE: fpm is running, pid 16
+[18-Oct-2024 06:00:12] NOTICE: ready to handle connections
+[18-Oct-2024 06:00:15] NOTICE: fpm is running, pid 15
+[18-Oct-2024 06:00:15] NOTICE: ready to handle connections
+[18-Oct-2024 10:28:39] NOTICE: fpm is running, pid 15
+[18-Oct-2024 10:28:39] NOTICE: ready to handle connections
+[18-Oct-2024 10:28:41] NOTICE: fpm is running, pid 16
+[18-Oct-2024 10:28:41] NOTICE: ready to handle connections
+[18-Oct-2024 10:29:45] NOTICE: fpm is running, pid 16
+[18-Oct-2024 10:29:45] NOTICE: ready to handle connections
+[18-Oct-2024 10:29:48] NOTICE: fpm is running, pid 15
+[18-Oct-2024 10:29:48] NOTICE: ready to handle connections
+[18-Oct-2024 14:17:35] NOTICE: fpm is running, pid 15
+[18-Oct-2024 14:17:35] NOTICE: ready to handle connections
+[18-Oct-2024 14:17:38] NOTICE: fpm is running, pid 15
+[18-Oct-2024 14:17:38] NOTICE: ready to handle connections
+[18-Oct-2024 14:18:03] NOTICE: fpm is running, pid 15
+[18-Oct-2024 14:18:03] NOTICE: ready to handle connections
+[18-Oct-2024 14:19:17] NOTICE: fpm is running, pid 15
+[18-Oct-2024 14:19:17] NOTICE: ready to handle connections
+[18-Oct-2024 14:19:20] NOTICE: fpm is running, pid 15
+[18-Oct-2024 14:19:20] NOTICE: ready to handle connections
+[18-Oct-2024 14:20:32] NOTICE: fpm is running, pid 15
+[18-Oct-2024 14:20:32] NOTICE: ready to handle connections
+[18-Oct-2024 14:38:10] NOTICE: fpm is running, pid 15
+[18-Oct-2024 14:38:10] NOTICE: ready to handle connections
+[21-Oct-2024 08:16:05] NOTICE: fpm is running, pid 15
+[21-Oct-2024 08:16:05] NOTICE: ready to handle connections
+[10-Nov-2024 16:38:55] NOTICE: fpm is running, pid 15
+[10-Nov-2024 16:38:55] NOTICE: ready to handle connections
