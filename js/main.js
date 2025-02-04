@@ -1,4 +1,4 @@
-const DOWNLOAD_URL = `https://discord.com/oauth2/authorize?client_id=1284517036260855901&permissions=279176400136&scope=bot%20applications.commands`;
+const DOWNLOAD_URL = `https://discord.com/oauth2/authorize?client_id=1284517036260855901&permissions=66448640&integration_type=0&scope=bot+applications.commands`;
 
 const NOTICE = {
     title: "Notice",
@@ -174,7 +174,7 @@ function invitelink() {
             Swal.fire(INVITESS).then((result) => {
                 if (result.isConfirmed) {
                     // Directly navigate to the bot invite link
-                    window.location.href = "https://discord.com/oauth2/authorize?client_id=1284517036260855901&permissions=279176400136&scope=bot%20applications.commands"; // Replace with actual bot invite link
+                    window.location.href = "https://discord.com/oauth2/authorize?client_id=1284517036260855901&permissions=66448640&integration_type=0&scope=bot+applications.commands"; // Replace with actual bot invite link
                 }
                 Swal.close();
             });
@@ -200,7 +200,7 @@ function invitelink() {
             Swal.fire(INVITESS).then((result) => {
                 if (result.isConfirmed) {
                     // Directly navigate to the bot invite link
-                    window.location.href = "https://discord.com/oauth2/authorize?client_id=1284517036260855901&permissions=279176400136&scope=bot%20applications.commands"; // Replace with actual bot invite link
+                    window.location.href = "https://discord.com/oauth2/authorize?client_id=1284517036260855901&permissions=66448640&integration_type=0&scope=bot+applications.commands"; // Replace with actual bot invite link
                 }
                 Swal.close();
             });
