@@ -52,16 +52,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // ------------------------------------------------------
 
-const snowflakes = document.querySelector('.snowflakes');
-const snowflakeContent = ['❅', '❆', '❄'];
-
-for (let i = 0; i < 25; i++) {
-  const snowflake = document.createElement('div');
-  snowflake.classList.add('snowflake');
-  snowflake.textContent = snowflakeContent[i % snowflakeContent.length];
-  snowflakes.appendChild(snowflake);
-}
-
 // ------------------------------------------------------
 
 // Define the array of names directly in script.js
