@@ -138,6 +138,7 @@ html {
     #s1 {
         flex-direction: column;
         padding-top: 71px;
+        padding-bottom: 50px;
         gap: 50px;
     }
     .body-container-1-right {

@@ -392,9 +392,9 @@ img {
     margin-left: 1rem;
     
 }
+
 .main5_admins_dev_type1 {
     flex-direction:row;
-    padding-right: 2rem;
     transition: transform 1s linear;
 }
 .main5_admins_div.main5_admins_dev_type1:hover {
