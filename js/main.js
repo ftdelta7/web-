@@ -20,6 +20,7 @@ const INVITESS = {
     denyButtonText: "Close",
 };
 
+// ------------------------------------------------------
 
 // Main Video Background Ambient Setup
 
@@ -27,30 +28,25 @@ document.addEventListener("DOMContentLoaded", function() {
     const video = document.querySelector('.main-video video');
     const colorThief = new ColorThief();
 
-    // Check if the user is on a mobile device
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    video.addEventListener('loadeddata', function() {
+        // Function to update box shadow color
+        function updateBoxShadow() {
+            const canvas = document.createElement('canvas');
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
 
-    if (!isMobile) { // Only set up ambient effect if not on mobile
-        video.addEventListener('loadeddata', function() {
-            // Function to update box shadow color
-            function updateBoxShadow() {
-                const canvas = document.createElement('canvas');
-                canvas.width = video.videoWidth;
-                canvas.height = video.videoHeight;
+            const context = canvas.getContext('2d');
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
 
-                const context = canvas.getContext('2d');
-                context.drawImage(video, 0, 0, canvas.width, canvas.height);
+            const dominantColor = colorThief.getColor(canvas);
+            const rgbColor = `rgb(${dominantColor[0]}, ${dominantColor[1]}, ${dominantColor[2]})`;
 
-                const dominantColor = colorThief.getColor(canvas);
-                const rgbColor = `rgb(${dominantColor[0]}, ${dominantColor[1]}, ${dominantColor[2]})`;
+            video.style.boxShadow = `0 0 70px 10px ${rgbColor}, 
+                                      0 0 50px 10px rgba(${dominantColor[0]}, ${dominantColor[1]}, ${dominantColor[2]}, 0.5)`;
+        }
 
-                video.style.boxShadow = `0 0 70px 10px ${rgbColor}, 
-                                          0 0 50px 10px rgba(${dominantColor[0]}, ${dominantColor[1]}, ${dominantColor[2]}, 0.5)`;
-            }
-
-            setInterval(updateBoxShadow, 1);
-        });
-    }
+        setInterval(updateBoxShadow, 1);
+    });
 });
 // ------------------------------------------------------
 
