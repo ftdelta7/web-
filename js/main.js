@@ -20,7 +20,6 @@ const INVITESS = {
     denyButtonText: "Close",
 };
 
-
 // ------------------------------------------------------
 
 // Main Video Background Ambient Setup
@@ -49,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function() {
         setInterval(updateBoxShadow, 1);
     });
 });
-
 // ------------------------------------------------------
 
 // ------------------------------------------------------
