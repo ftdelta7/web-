@@ -94,6 +94,7 @@
                 if (response.ok) {
                     alert('Your message has been sent successfully!');
                     document.getElementById('supportForm').reset();
+					window.location.href = '/';  // ✅ Redirect to homepage
                 } else {
                     alert('Failed to send message. Please try again later.');
                 }
